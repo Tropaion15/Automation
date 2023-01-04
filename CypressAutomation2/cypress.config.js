@@ -2,6 +2,9 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
 
+  //cloud connection
+  projectId: "ygde8n",
+
   //overrides
   defaultCommandTimeout: 6000,
 
