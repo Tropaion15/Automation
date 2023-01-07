@@ -5,18 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress run",
-      "headTest": "npm run test -- --headed",
-      "chromeTest": "npm run test -- --browser Chrome",
-
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser Chrome",
     "cypress": "node_modules\\.bin\\cypress open",
-
     "recordDashBoardTest": "npx cypress run --record --key b97fdbfd-2ad1-4e43-b7eb-1c060686250b"
-
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.1.0",
+    "cypress": "^12.3.0",
     "cypress-iframe": "^1.0.1"
   }
 }
